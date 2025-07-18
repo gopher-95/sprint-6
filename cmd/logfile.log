@@ -1,0 +1,306 @@
+2025/07/18 09:59:44.208963 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63019: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc0000001c0}, 0xc0001d3b38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc0000001c0?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc0000001c0}, 0xc00010a8c0)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc000108780?}, {0x11fe720?, 0xc0000001c0?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc000196510, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:44.210529 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63020: runtime error: invalid memory address or nil pointer dereference
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc0001242a0}, 0xc0001cfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc0001242a0?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc0001242a0}, 0xc0000bc140)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00002d5f0?}, {0x11fe720?, 0xc0001242a0?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc00010e240, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:45.318024 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63021: runtime error: invalid memory address or nil pointer dereference
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc0000002a0}, 0xc0001cfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc0000002a0?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc0000002a0}, 0xc00010aa00)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc0001089c0?}, {0x11fe720?, 0xc0000002a0?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc00010e360, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:45.321571 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63022: runtime error: invalid memory address or nil pointer dereference
+goroutine 40 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000000380}, 0xc0001e1b38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000000380?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000000380}, 0xc0000bc280)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00002d650?}, {0x11fe720?, 0xc000000380?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc00010e3f0, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:45.323573 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63023: runtime error: invalid memory address or nil pointer dereference
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000198540}, 0xc0001dfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000198540?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000198540}, 0xc000194780)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc000182a50?}, {0x11fe720?, 0xc000198540?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0001965a0, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:59.265622 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63024: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000124540}, 0xc0001edb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000124540?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000124540}, 0xc00010adc0)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00002d9e0?}, {0x11fe720?, 0xc000124540?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0000a26c0, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:59.266668 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63027: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000124700}, 0xc0001dfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000124700?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000124700}, 0xc0001948c0)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc000182c90?}, {0x11fe720?, 0xc000124700?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0000a2750, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 09:59:59.268195 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63028: runtime error: invalid memory address or nil pointer dereference
+goroutine 44 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000000540}, 0xc0001dfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000000540?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000000540}, 0xc0000bc500)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00002daa0?}, {0x11fe720?, 0xc000000540?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc00010e6c0, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:00:00.347511 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63029: runtime error: invalid memory address or nil pointer dereference
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000198700}, 0xc0001e1b38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000198700?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000198700}, 0xc0000bc640)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00002dc20?}, {0x11fe720?, 0xc000198700?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc000196750, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:00:00.348019 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63030: runtime error: invalid memory address or nil pointer dereference
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000000620}, 0xc0001cfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000000620?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000000620}, 0xc00010af00)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc000109020?}, {0x11fe720?, 0xc000000620?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0000a2870, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:00:00.349339 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63031: runtime error: invalid memory address or nil pointer dereference
+goroutine 45 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc0001247e0}, 0xc000217b38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc0001247e0?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc0001247e0}, 0xc00010b040)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc0001090e0?}, {0x11fe720?, 0xc0001247e0?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc00010e750, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:06:37.842752 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63147: runtime error: invalid memory address or nil pointer dereference
+goroutine 58 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc0001249a0}, 0xc0001dfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc0001249a0?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc0001249a0}, 0xc00010b680)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc0001095c0?}, {0x11fe720?, 0xc0001249a0?}, 0x1?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0000a2e10, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:06:43.681016 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63150: runtime error: invalid memory address or nil pointer dereference
+goroutine 59 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000000a80}, 0xc0001cdb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000000a80?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000000a80}, 0xc0000bd2c0)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00024ca20?}, {0x11fe720?, 0xc000000a80?}, 0x1?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0000a2ea0, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:06:44.791450 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63153: runtime error: invalid memory address or nil pointer dereference
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x113b360?, 0x13eab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x11fe720, 0xc000000b60}, 0xc0001dfb38?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00008e0c0?, {0x11fe720?, 0xc000000b60?}, 0x108f6f6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0xefc4b9?, {0x11fe720, 0xc000000b60}, 0xc0000bd400)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0xc00024cc90?}, {0x11fe720?, 0xc000000b60?}, 0x1?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc0000a3050, {0x11fea58, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:07:57.477587 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63167: runtime error: invalid memory address or nil pointer dereference
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x12ab360?, 0x155ab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x136e6e0, 0xc0000b2000}, 0xc000035b40?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00010e0c0?, {0x136e6e0?, 0xc0000b2000?}, 0xc000035b60?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0x1015ae5?, {0x136e6e0, 0xc0000b2000}, 0xc00009e000)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0x136d5f0?}, {0x136e6e0?, 0xc0000b2000?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc000122240, {0x136ea18, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:07:57.479117 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63174: runtime error: invalid memory address or nil pointer dereference
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x12ab360?, 0x155ab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x136e6e0, 0xc0000b20e0}, 0xc00006db40?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00010e0c0?, {0x136e6e0?, 0xc0000b20e0?}, 0xc00006db60?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0x1015ae5?, {0x136e6e0, 0xc0000b20e0}, 0xc000190000)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0x136d5f0?}, {0x136e6e0?, 0xc0000b20e0?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc000122630, {0x136ea18, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
+2025/07/18 10:07:57.481312 C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3632: servhttp: panic serving [::1]:63175: runtime error: invalid memory address or nil pointer dereference
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:1947 +0xbe
+panic({0x12ab360?, 0x155ab40?})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/runtime/panic.go:787 +0x132
+github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers.UploadHandler({0x136e6e0, 0xc0001a8000}, 0xc0000c3b40?)
+	C:/Users/alexa/sprint-6/internal/handlers/handlers.go:47 +0x8f
+net/http.HandlerFunc.ServeHTTP(0xc00010e0c0?, {0x136e6e0?, 0xc0001a8000?}, 0xc0000c3b60?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2294 +0x29
+net/http.(*ServeMux).ServeHTTP(0x1015ae5?, {0x136e6e0, 0xc0001a8000}, 0xc000190140)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2822 +0x1c4
+net/http.serverHandler.ServeHTTP({0x136d5f0?}, {0x136e6e0?, 0xc0001a8000?}, 0x6?)
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3301 +0x8e
+net/http.(*conn).serve(0xc000098360, {0x136ea18, 0xc00002d260})
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:2102 +0x625
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Users/alexa/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.0.windows-amd64/src/net/http/server.go:3454 +0x485
