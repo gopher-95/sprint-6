@@ -14,16 +14,11 @@ import (
 
 // первый обработчик записывает в тело ответа html форму
 func FirstHandler(w http.ResponseWriter, r *http.Request) {
-	//получаем абсолютный путь файла index.html
-	filePath := "..\\index.html"
+	//получаем относительный путь файла index.html
+	filePath := filepath.Join("\\Users\\alexa\\sprint-6\\index.html")
 
-	absPath, err := filepath.Abs(filePath)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	//читаем содержимое файла, передав абсолютный путь файла
-	data, err := os.ReadFile(absPath)
+	//читаем содержимое файла, передав относительный путь файла
+	data, err := os.ReadFile(filePath)
 	if err != nil {
 		fmt.Println("не удалось открыть файл")
 		log.Fatal(err)
@@ -60,12 +55,14 @@ func UploadHandler(w http.ResponseWriter, r *http.Request) {
 	createdFile, err := os.Create(fileName)
 	if err != nil {
 		log.Fatal(err)
+		fmt.Println(http.StatusInternalServerError)
 	}
 
 	//записываем в этот файл результат конвератции
 	_, err = createdFile.Write([]byte(text))
 	if err != nil {
 		log.Fatal(err)
+		fmt.Println(http.StatusInternalServerError)
 	}
 
 	//закрываем файл
