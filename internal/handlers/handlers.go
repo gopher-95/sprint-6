@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"path/filepath"
 	"time"
 
 	"github.com/Yandex-Practicum/go1fl-sprint6-final/internal/service"
@@ -15,7 +14,7 @@ import (
 // первый обработчик записывает в тело ответа html форму
 func FirstHandler(w http.ResponseWriter, r *http.Request) {
 	//получаем относительный путь файла index.html
-	filePath := filepath.Join("\\Users\\alexa\\sprint-6\\index.html")
+	filePath := "index.html"
 
 	//читаем содержимое файла, передав относительный путь файла
 	data, err := os.ReadFile(filePath)
@@ -26,6 +25,8 @@ func FirstHandler(w http.ResponseWriter, r *http.Request) {
 
 	//устанавливаем заголовок
 	w.Header().Set("Content-Type", "text/html")
+
+	w.WriteHeader(http.StatusOK)
 
 	//передаем содержимое в ответ сервера
 	w.Write(data)
@@ -70,6 +71,8 @@ func UploadHandler(w http.ResponseWriter, r *http.Request) {
 
 	//устанавливаем заголовок
 	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+
+	w.WriteHeader(http.StatusOK)
 
 	//возвращаем результат конвератции строки
 	w.Write([]byte(text))
